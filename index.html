@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barista</title>
+
+    <!--bootstrap stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!--Main Stylesheet -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!--Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+   
+</head>
+<body>
+   
+    
+<!--header -->
+
+<header class="header p-3 position-absolute start-0 top-0 end-0">
+  <div class="d-flex justify-content-between  align-items-center">
+    <a href="/" class="text-decoration-none text-white fs-5 fw-bold">Barista</a>
+
+<div>
+
+  <button class="navbar-toggler text-white"  type="button" 
+  data-bs-toggle="collapse"
+  data-bs-target="#navbar"
+  aria-controls="navbar"
+  aria-expanded="false"
+  aria-label="Toggle navigation">
+
+  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-shop-window" viewBox="0 0 16 16">
+    <path d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0zM1.5 8.5A.5.5 0 0 1 2 9v6h12V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5zm2 .5a.5.5 0 0 1 .5.5V13h8V9.5a.5.5 0 0 1 1 0V13a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.5a.5.5 0 0 1 .5-.5z"/>
+  </svg>
+
+  
+  </button>
+
+
+</div>
+
+
+  </div>
+</header>
+<!--header end -->
+
+<!--flyout Nav -->
+<nav class="collapse  navbar-collapse dropdown-nav" id="navbar">
+
+<div class="dropdown-nav__container-xxl d-flex align-items-start align-items-md-center">
+<div class="row align-items-start">
+<div class="col-12 col-sm-4">
+    <a href="#" class="row text-decoration-none">
+        <div class="col-2 col-sm-12 mb-4">
+            <img src="/img/Americano.jpg" alt="Americano"
+        class="img-fluid" width="200" height="200" loading="lazy">
+        </div>
+ 
+        <div class="col-10">
+            <h3>Americano</h3>
+            <p>"poured by hot water over an espresso shot"</p>
+            <p>Buy Now for  $ 21  <i class="bi bi-arrow-left-short"></i></p>
+        </div>
+      </a>
+    </div>
+    <div class="col-12 col-sm-4">
+        <a href="#" class="row text-decoration-none">
+            <div class="col-2 col-sm-12 mb-4">
+                <img src="/img/capuccino.jpg" alt="Cappuccino"
+            class="img-fluid" width="200" height="200" loading="lazy">
+            </div>
+     
+            <div class="col-10">
+                <h3>Cappuccino</h3>
+                <p>"prepared with steamed milk foam"</p>
+                <p>Buy Now for  $ 21  <i class="bi bi-arrow-left-short"></i></p>
+            </div>
+          </a>
+        </div>
+        <div class="col-12 col-sm-4">
+            <a href="#" class="row text-decoration-none">
+                <div class="col-2 col-sm-12 mb-4">
+                    <img src="/img/Espresso.jpg" alt="Espresso"
+                class="img-fluid" width="200" height="200" loading="lazy">
+                </div>
+         
+                <div class="col-10">
+                    <h3>Espresso</h3>
+                    <p>"shot of concentrated coffee, made by forcing very hot water at a high pressure through finely-ground coffee beans."</p>
+                    <p>Buy Now for  $ 21  <i class="bi bi-arrow-left-short"></i></p>
+                </div>
+              </a>
+            </div>
+            <div class="col-12 col-sm-4">
+                <a href="#" class="row text-decoration-none">
+                    <div class="col-2 col-sm-12 mb-4">
+                        <img src="/img/latte.jpg" alt="latte"
+                    class="img-fluid" width="200" height="200" loading="lazy">
+                    </div>
+             
+                    <div class="col-10">
+                        <h3>Latte</h3>
+                        <p>" milk coffee that boasts a silky layer of foam as a real highlight to the drink"</p>
+                        <p>Buy Now for  $ 21  <i class="bi bi-arrow-left-short"></i></p>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 col-sm-4">
+                    <a href="#" class="row text-decoration-none">
+                        <div class="col-2 col-sm-12 mb-4">
+                            <img src="/img/mocha.jpg" alt="mocha"
+                        class="img-fluid" width="200" height="200" loading="lazy">
+                        </div>
+                 
+                        <div class="col-10">
+                            <h3>Mocha</h3>
+                            <p>"shot of espresso is combined with a chocolate powder or syrup, followed by milk or cream."</p>
+                            <p>Buy Now for  $ 21  <i class="bi bi-arrow-left-short"></i></p>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col-12 col-sm-4">
+                        <a href="#" class="row text-decoration-none">
+                            <div class="col-2 col-sm-12 mb-4">
+                                <img src="/img/logo.jpg" alt="logo"
+                            class="img-fluid" width="200" height="200" loading="lazy">
+                            </div>
+                     
+                            <div class="col-10">
+                                <h3>Customize your own</h3>
+                                <p>"Love at First Sip."</p>
+                                <p>Buy Now for  $ 21  <i class="bi bi-arrow-left-short"></i></p>
+                            </div>
+                          </a>
+                        </div>
+</div>
+
+<button class="navbar-toggler text-white dropdown-nav__closeNavBtn" 
+type="button"
+data-bs-toggle="collapse"
+data-bs-target="#navbar"
+aria-controls="navbar"
+aria-expanded="false"
+aria-label="Toggle navigation">
+
+
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+  </svg>
+ 
+</button>
+
+</div>
+</nav>
+<!--Flyout Nav End -->
+
+<!--hero -->
+
+<section class="hero">
+
+<div class="hero_overlay"></div>
+
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" loading="lazy" class="hero_video">
+        <source src="img/A E S T H E T I C ( Coffee Anime).mp4"  type="video/mp4"> 
+    </video>
+
+<div class="hero__content h-100 container-custom position-relative">
+
+<div class="d-flex h-100 align-items-center hero__content-width">
+    <div class="text-white">
+        <h1 class="hero__heading fw-bold mb-4">NOW ROASTING</h1>
+        <P class="lead mb-4">The Only Shots You Need. Time to drink a coffee.</P>
+        <a href="#" class="mt-2 btn-lg btn-outline-light" role="button">Buy us a coffee?</a>
+    </div>
+</div>
+</div>
+
+
+<a href="#scroll-down" class="hero__scroll-btn">
+Show more <i class="bi bi-arrow-down"></i>
+
+</a>
+
+
+
+
+</section>
+<!--hero end -->
+
+<a id="scroll-down"></a>
+<!--section -->
+
+<section class="steps container-custom">
+
+<div class="row">
+ <div class="col-12 col-sm-6 d-md-flex justify-content-md-center">
+    <img src="img/150929101049-black-coffee-stock.jpg" alt="Coffee Flavour" class="img-fluid pb-4 steps__section-thumbnail" width="800" height="650" loading="lazy">
+ </div>
+
+<div class="col-12 col-sm-6 align-self-center justify-content-md-center">
+
+<div class="steps__content-width">
+<h1>But First, Coffee...</h1>
+<p class="h2 mb-4">Get your hands on some of our best-selling coffees. Every week, we roast your coffee fresh. As you spend time at home, nothing is as comforting as a good cup of coffee to keep you company.</p>
+<a href="#">Get Membership Perks    <i class="bi bi-person"></i></a>
+
+</div>
+
+</div>
+
+</div>
+
+
+</section>
+
+<section class="steps steps--background container-custom">
+
+    <div class="row">
+     <div class="col-12 col-sm-6 d-md-flex justify-content-md-center">
+        <img src="img/bigstock-Coffee-Cup-Cup-Of-Coffee-1375146-thumb.jpg" alt="Coffee Cup" class="img-fluid pb-4 steps__section-thumbnail" width="550" height="366" loading="lazy">
+     </div>
+    
+    <div class="col-12 col-sm-6 align-self-center justify-content-md-center">
+    
+    <div class="steps__content-width">
+    <h1>Essential Items</h1>
+    <p class="h2 mb-4">We offer a range of roast profiles on our lineup of blends to provide our customers consistent and reliably delicious coffees. Meanwhile, our single origin coffees rotate seasonally for ultimate freshness, and we roast these to showcase the best flavor notes inherent in the bean.</p>
+    <a href="#">Get Yourself a Cup   <i class="bi bi-cup-fill"></i></i></a>
+    
+    </div>
+    
+    </div>
+    
+    </div>
+    
+    
+    </section>
+    <!--section 1 end -->
+
+    <!--section with Col -->
+    <section class="bg-dark text-white py-4">
+
+<div class="container-custom my-4">
+<div class="row">
+
+<div class="col-12 col-sm-4 mb-4">
+    <img src="img/150929101049-black-coffee-stock.jpg" class="mb-4 img-fluid
+    " alt="Coffee Flavour" width="441" height="248" loading="lazy"  >
+<h3>Discounts</h3>
+<p>Get more discounts by being one of our Member. Get different perks that you can use to enjoy our cafe with affordable price</p>
+
+</div>
+
+<div class="col-12 col-sm-4 mb-4">
+    <img src="img/bigstock-Coffee-Cup-Cup-Of-Coffee-1375146-thumb.jpg" class="mb-4 img-fluid
+    " alt="Coffee Cup" width="441" height="248" loading="lazy"  >
+<h3>Essential Drinks</h3>
+<p>Our coffee is always specialty grade, as well as ethically and carefully sourced. We pay a premium to ensure the livelihood of coffee farmers and the quality of the green beans we purchase.
+</p>
+
+</div>
+
+<div class="col-12 col-sm-4 mb-4">
+    <img src="img/logo.jpg" class="mb-4 img-fluid
+    " alt="logo" width="441" height="248" loading="lazy"  >
+<h3>Since 2003 Barista</h3>
+<a href="#"Shop Now <i class="bi bi-bag-check"></i></a>
+
+</div>
+
+</div>
+</div>
+    </section>
+
+   <!--section with Col end -->
+      <!-- footer-->
+
+      <footer class="footer bg-black text-white">
+        <div class="container-custom d-flex justify-content-between align-items-center py-3 border-highlight">
+         <div class="col-md-4 d-flex align-items-center">
+         <a href="/" class="me-2 text-muted">
+            <i class="bi bi-cup"></i>
+            <span>&copy; 2003 Barista</span>
+
+     </a>
+
+</div>
+
+<ul class="nav col-md-4 justify-content-end list-unstyled d-flex text-white">
+<li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-twitter"></i></a></li>
+<li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-instagram"></i></a></li>
+<li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-facebook"></i></a></li>
+
+</ul>
+
+        </div>
+
+      </footer>
+
+    <!-- footer end -->
+
+
+
+
+
+
+
+
+
+
+
+<!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+</body>
+</html>
